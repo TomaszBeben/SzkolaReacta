@@ -1,0 +1,15 @@
+{
+    "name": "lekcja6_korzystanie_z_npm_vol1",
+    "version": "1.0.0",
+    "description": "test korzystania z npm",
+    "main": "index.js",
+    "scripts": {
+        "prestartC": "echo \" testowanie działania skryptów \"",
+        "startC": "node index.js",
+        "poststartC": "echo \" koniec działania skryptu \"",
+        "ok": "echo \" Szkoła reacta czas start \"",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "TomekB",
+    "license": "ISC"
+}
