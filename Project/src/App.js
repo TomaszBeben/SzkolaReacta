@@ -1,12 +1,33 @@
 import React from 'react';
 import './App.css';
 
+// const News = (props) => {
+//   const { header, intro } = props;
+//   return (
+//     <div className='News'>
+//       <h2>{header}</h2>
+//       <p>{intro}</p>
+//     </div>
+//   )
+// }
+
+const orange = '#e67e22';
+
+const styles = {
+    backgroundColor: '#ecf0f1',
+    border: '#1abc9c 1px solid',
+    padding: 10,
+    p: {
+      background: orange
+    }
+}
+
 const News = (props) => {
   const { header, intro } = props;
   return (
-    <div>
+    <div style={styles}>
       <h2>{header}</h2>
-      <p>{intro}</p>
+      <p style={styles.p}>{intro}</p>
     </div>
   )
 }
