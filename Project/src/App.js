@@ -22,14 +22,26 @@ const styles = {
     }
 }
 
-const News = (props) => {
-  const { header, intro } = props;
-  return (
-    <div style={styles}>
-      <h2>{header}</h2>
-      <p style={styles.p}>{intro}</p>
-    </div>
-  )
+// const News = (props) => {
+//   const { header, intro } = props;
+//   return (
+//     <div style={styles}>
+//       <h2>{header}</h2>
+//       <p style={styles.p}>{intro}</p>
+//     </div>
+//   )
+// }
+
+class News extends React.Component {
+  render(){
+    const{header, intro} = this.props;
+    return(
+      <div style={styles}>
+       <h2>{header}</h2>
+       <p style={styles.p}>{intro}</p>
+     </div>
+    )
+  }
 }
 
 const data = [
