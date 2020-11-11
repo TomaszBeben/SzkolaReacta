@@ -1,3 +1,16 @@
+.zadanie_1 {
+    border: 2px solid black;
+    padding: 1%;
+}
+
 .clicker {
     cursor: pointer;
+}
+
+.clicker:hover {
+    color: brown;
+}
+
+.zadanie_2 {
+    border: 2px solid black;
 }
